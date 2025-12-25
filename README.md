@@ -16,10 +16,13 @@ This project provides a comprehensive analysis of **$1.2M in sales** for Blinkit
 ### 2. Data Modeling & DAX
 * Created a **Star Schema** to optimize report performance.
 * Developed custom DAX measures:
-  * `Total Sales = SUM(Sales[Amount])`
-  * `Avg Rating = AVERAGE(Sales[Rating])`
-  * `What-If Analysis:` Implemented dynamic parameters to simulate revenue impact from price adjustments.
+  * `Total Sales = SUM(Merge1[Sales])`
+  * `Total Items = COUNTROWS(Merge1)`
+  * `Avg Rating = AVERAGE(Merge1[Rating])`
+  * `Avg Sales = AVERAGE(Merge1[Sales])`
+ 
+
 
 ## How to View
-1. Download the `Blinkit_Dashboard.pbix` file.
+1. Download the `Blinkit final Dashboard.pbix` file.
 2. Open with [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
