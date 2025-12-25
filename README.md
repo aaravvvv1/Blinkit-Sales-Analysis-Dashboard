@@ -24,5 +24,5 @@ This project provides a comprehensive analysis of **$1.2M in sales** for Blinkit
 
 
 ## How to View
-1. Download the `Blinkit final Dashboard.pbix` file.
+1. Download the `Blinkit Final Dashboard.pbix` file.
 2. Open with [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
